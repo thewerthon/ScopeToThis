@@ -92,6 +92,7 @@ function createExcludeList(path: string) {
         for (let i = 0; i < dir.length; i++) {
             excludes.push(`${dirsSoFar}${dir.slice(0, i)}[!${dir[i]}]*/**`);
         }
+        excludes.push(`${dirsSoFar}${dir}?*/**`);
     });
 
     return excludes;
