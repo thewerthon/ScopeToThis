@@ -43,11 +43,11 @@
 		"commands": [
 			{
 				"command": "scope-to-this.scope",
-				"title": "Scope to This"
+				"title": "%command.scope%"
 			},
 			{
 				"command": "scope-to-this.clear",
-				"title": "Clear Scope",
+				"title": "%command.clear%",
 				"icon": "$(search-stop)"
 			}
 		],
