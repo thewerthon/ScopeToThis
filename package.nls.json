@@ -1,7 +1,7 @@
 {
 	"command.category": "Scope to This",
-	"command.scope.short": "Scope to This",
-	"command.scope.long": "Scope to This: Move Scope",
+	"command.scope.short": "Move Scope",
+	"command.scope.long": "Move Scope",
 	"command.clear.short": "Clear Scope",
-	"command.clear.long": "Scope to This: Clear Scope"
+	"command.clear.long": "Clear Scope"
 }

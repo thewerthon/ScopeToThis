@@ -1,7 +1,7 @@
 {
 	"command.category": "Escopo",
 	"command.scope.short": "Mover Escopo",
-	"command.scope.long": "Escopo: Mover Escopo",
+	"command.scope.long": "Mover Escopo",
 	"command.clear.short": "Limpar Escopo",
-	"command.clear.long": "Escopo: Limpar Escopo"
+	"command.clear.long": "Limpar Escopo"
 }
