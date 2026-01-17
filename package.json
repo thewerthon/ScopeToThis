@@ -48,7 +48,7 @@
 			{
 				"command": "scope-to-this.clear",
 				"title": "%command.clear%",
-				"icon": "$(unfold)"
+				"icon": "$(arrow-circle-left)"
 			}
 		],
 		"menus": {
@@ -63,7 +63,12 @@
 				{
 					"command": "scope-to-this.scope",
 					"group": "2_workspace@1",
-					"when": "activeViewlet == 'workbench.view.explorer' && explorerResourceIsFolder"
+					"when": "activeViewlet == 'workbench.view.explorer' && explorerResourceIsFolder && !scopeToThis.scoped"
+				},
+				{
+					"command": "scope-to-this.clear",
+					"group": "2_workspace@1",
+					"when": "activeViewlet == 'workbench.view.explorer' && explorerResourceIsFolder && scopeToThis.scoped"
 				}
 			]
 		}
