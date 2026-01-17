@@ -48,7 +48,7 @@
 			{
 				"command": "scope-to-this.clear",
 				"title": "%command.clear%",
-				"icon": "$(fold-up)"
+				"icon": "$(unfold)"
 			}
 		],
 		"menus": {
