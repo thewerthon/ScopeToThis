@@ -43,11 +43,15 @@
 		"commands": [
 			{
 				"command": "scope-to-this.scope",
-				"title": "%command.scope%"
+				"title": "%command.scope.long%",
+				"shortTitle": "%command.scope.short%",
+				"category": "%command.category%"
 			},
 			{
 				"command": "scope-to-this.clear",
-				"title": "%command.clear%",
+				"title": "%command.clear.long%",
+				"shortTitle": "%command.clear.short%",
+				"category": "%command.category%",
 				"icon": "$(close)"
 			}
 		],

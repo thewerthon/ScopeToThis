@@ -1,4 +1,7 @@
 {
-	"command.scope": "Mover Escopo para Pasta",
-	"command.clear": "Remover Escopo"
+	"command.category": "Escopo",
+	"command.scope.short": "Mover Escopo",
+	"command.scope.long": "Escopo: Mover Escopo",
+	"command.clear.short": "Limpar Escopo",
+	"command.clear.long": "Escopo: Limpar Escopo"
 }

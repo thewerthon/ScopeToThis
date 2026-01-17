@@ -24,5 +24,6 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: extension
+          name: scope-to-this
           path: "*.vsix"
+          if-no-files-found: error
