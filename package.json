@@ -1,9 +1,9 @@
 {
 	"name": "thewerthon-scope-to-this",
-	"displayName": "Scope to This (Fixed)",
-	"description": "Adds Scope to This feature to the explorer context menu. Lets you focus on the things that matter",
+	"displayName": "Scope to This (Modded)",
+	"description": "Adds `Move Scope` option to the explorer context menu.",
 	"publisher": "thewerthon",
-	"version": "0.2.1",
+	"version": "1.0.0",
 	"license": "MIT",
 	"icon": "resources/icon.png",
 	"galleryBanner": {
